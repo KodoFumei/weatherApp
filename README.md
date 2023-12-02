@@ -8,7 +8,7 @@ https://checkforecast.netlify.app
 
 ## Usage
 
-User will write desired location/ destination on the search field. If user chooses (click 'Today') to see today's weather, programm will show todays weather forecast. If user chooses (click '6 days') to see 6 days weather forecast, programm will show the next 6 days weather for user. each day mark
+User will write desired location/ destination on the search field. If user chooses (click 'Today') to see today's weather, programm will show todays weather forecast. If user chooses (click '6 days') to see 6 days weather forecast, programm will show the next 6 days weather for user.
 
 ## Features
 
