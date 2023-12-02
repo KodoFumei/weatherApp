@@ -1,0 +1,120 @@
+body {
+    width: 1280px;
+    height: 900px;
+    background: linear-gradient(180deg, #65CAE0 51.56%, rgba(48, 154, 252, 0.00) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+label[for="cityInfo"] {
+    font-family: Bangers;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: Bangers;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: normal;
+}
+
+.container {
+    max-width: 700px;
+    margin: 1px;
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+select,
+input,
+button {
+    background: #FFBC11;
+    color: #000;
+    text-align: center;
+    font-family: Abel;
+    font-size: 25px;
+    font-style: normal;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+input {
+    height: 35px;
+    font-size: 15px;
+}
+
+button {
+    font-family: Bangers;
+    letter-spacing: 2px;
+    height: 49px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+.weather-results {
+    font-family: Abel;
+    font-size: 19px;
+    text-align: center;
+}
+
+h3 {
+    white-space: nowrap;
+    font-size: 30px;
+    font-family: Bangers;
+    font-weight: 200;
+    letter-spacing: 15px;
+    color: #000000;
+    margin-bottom: 1px;
+    margin-left: 150px;
+}
+
+p {
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 1px;
+
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 50px;
+}
+
+.weekly-forecast {
+    margin-left: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.daily-forecast {
+    border: 3px solid #FFBC11;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 160px;
+}

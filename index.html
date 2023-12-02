@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href='https://fonts.googleapis.com/css?family=Just Me Again Down Here' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Weather App</h1>
+      <label for="cityInfo"> Check weather forecast for desired destination. <br> You can choose to see today's weather or the next 6 days.</label>
+
+      <input type="text" id="cityInput" placeholder="Search for a destination">
+      <button class="button" id="buttonToday">Today</button>
+      <button class="button" id="buttonWeek">6 Days</button>
+      
+    </div>
+    
+    <div class="weather-results" id="weatherResults">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
