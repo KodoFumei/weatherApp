@@ -3,7 +3,7 @@
 User can check the weather forecast from desired location. User can choose to see weather for today or for the next 6 days.
 
 ## Installation
-no installation needed.
+No installation needed.
 https://checkforecast.netlify.app
 
 ## Usage
